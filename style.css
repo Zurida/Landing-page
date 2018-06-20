@@ -1,0 +1,691 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.container {
+	max-width: 1440px; 
+	margin: 0 auto;
+}
+
+/*Главная картинка*/
+
+.slider {
+	min-height: 813px;
+	background-image: url(img/head_background.jpg);
+}
+
+.slider h1 {
+	font-family: 'Exo', sans-serif;
+	color:  rgba(40, 40, 40, 0.56);
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 75px;
+	text-align: center;
+	padding-top: 225px;
+}
+
+
+
+.slogan {
+	font-family: Exo;
+	color:  grey;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 50px;
+	top: 530px;
+	left: 550px;
+    text-align: center;
+}
+
+.play_button {
+	border-color:  #ff6d6d;
+	background-color:  #ff6d6d;
+	box-shadow: 0px 3px 3px 0px rgba(14, 15, 15, 0.25);
+	width: 190px;
+	height: 50px;
+	color: white;
+	top: 400px;
+	right: 626px;
+	outline: none;
+	display: block;
+    margin: 0 auto;
+	margin-top: 80px;
+ 	cursor: pointer;
+ 	transition: opacity 0.3s;
+}
+
+.play_button:hover {
+	opacity: 0.8;
+}
+
+/*Описание нового дизайна*/
+
+.nd_picture {
+	float: right;
+	background-color:  #ededed;
+	width: 568px;
+	height: 724px;
+	background-image: url(img/rectangle.png);
+
+}
+
+.nd_description {
+	padding-left: 151px;
+	padding-top: 120px; 
+	max-width: 532px;
+}
+
+.nd_description h3 {
+	font-family: Exo;
+	color:  rgba(255, 109, 109, 0.8);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: left;
+}
+
+.nd_description h2 {
+	font-family: Exo;
+	color:  #282828;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: left;
+}
+
+.colortext {
+	font-family: Exo;
+	color:  #ff6d6d;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: left;
+}
+
+.nd_text {
+	font-family: Exo;
+	color:  rgba(40, 40, 40, 0.56);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 26px;
+	text-align: left;
+}
+
+/*Новые фишки*/
+
+.features {
+	background-color:  #f6f5f3;
+	min-height: 675px;
+	position: relative;
+	clear: both;
+	z-index: -2;
+}
+
+.pen_holder {
+	background-image: url(img/pen_holder.png);
+	width: 291px;
+	height: 314px;
+	position: absolute;
+	padding-left: 82px;
+}
+
+.features>h3 {
+	font-family: Exo;
+	color: rgba(255, 109, 109, 0.8);
+	font-size: 15.99px;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 120px;
+}
+
+.features h2 {
+	font-family: Exo;
+	color:  black;
+	font-size: 39.98px;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: center;
+	transform: scaleX(1.0014);
+}
+
+.earphones {
+	background-image: url(img/earphones.png);
+	width: 162px;
+	height: 213px;
+	position: absolute;
+	margin-left: 1087px;
+	top:-6px;
+	z-index: -1;
+}
+
+.navigation {
+	margin-top: 95px; 
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.gallery, .airplane, .bulb {
+	display: block;
+	width: 250px;
+	font-family: Exo;
+	color:  rgba(40, 40, 40, 0.56);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 26px;
+	text-align: center;
+	
+}
+
+article>h3 {
+	font-family: Exo;
+	color:  black;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: center;
+	transform: scaleX(1.0014);
+}
+
+.gallery_bckgd {
+	background-image: url(img/gallery_bckgd.png);
+	width: 67px;
+	height: 67px;
+	margin: 0 auto;
+}
+
+
+.airplane_bckgd {
+	background-image: url(img/airplane.png);
+	width: 67px;
+	height: 67px;
+	margin: 0 auto;
+
+}
+
+.bulb_bckgd {
+	background-image: url(img/bulb.png);
+	width: 67px;
+	height: 67px;
+	margin: 0 auto;
+}
+
+/*Responsive design*/
+
+.new_design2 {
+	position: relative;
+}
+
+.macbook {
+	background-image: url(img/macbook.png);
+	width: 630px;
+	height: 367px;
+	position: absolute;
+	top: 93px;
+	left: 55px;
+}
+
+.macbook_video {
+	position: absolute;
+        width: 450px;
+    height: 310px;
+    margin-left: 92px;
+    z-index: 1;
+    margin-top: 0px;
+}
+
+.rd_picture {
+	background-image: url(img/rectangle2.png);
+	width: 622px;
+	height: 780px;
+	margin-top: -230px;
+	float: left;
+	position: relative;
+	z-index: -3;
+}
+
+.nd_description2 {
+	display: block;
+	float: right;
+	max-width: 492px;
+	margin-right: 211px;
+	margin-top: 90px; 
+}
+
+.nd_description2 h3 {
+	font-family: Exo;
+	color:  rgba(255, 109, 109, 0.8);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: left;
+}
+
+.nd_description2 h2 {
+	font-family: Exo;
+	color:  #282828;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: left;
+}
+
+.colortext {
+	font-family: Exo;
+	color:  #ff6d6d;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: left;
+}
+
+.nd_text {
+	font-family: Exo;
+	color:  rgba(40, 40, 40, 0.56);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 26px;
+	text-align: left;
+}
+
+/*Founders*/
+
+.founders {
+	clear: both;
+	background-image: url(img/founders_bg.jpg);
+	min-height: 548px;
+	padding-top: 110px;
+	padding-left: 200px;
+}
+
+.founder {
+	display: block;
+	float: left;
+	width: 324px;
+	font-family: Exo;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 26px;
+	text-align: center;
+	margin-right: 50px;
+}
+
+.founder>h3 {
+	font-family: Exo;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: center;
+}
+
+.founder>h4 {
+	color: rgba(255, 109, 109, 0.8);
+	margin-top: 37px;
+}
+
+
+.founder1 {
+	background-image: url(img/founder.jpg);
+	width: 67px;
+	height: 67px;
+	margin: 0 auto;
+}
+
+.founder2 {
+	background-image: url(img/founder.jpg);
+	width: 67px;
+	height: 67px;
+	margin: 0 auto;
+}
+
+.founder3 {
+	background-image: url(img/founder.jpg);
+	width: 67px;
+	height: 67px;
+	margin: 0 auto;
+}
+
+.brands {
+	clear: both;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.partner1 {
+	width: 130px;
+	height: 65px;
+}
+
+.partner2 {
+	width: 110px;
+	height: 56px;
+}
+
+.partner3 {
+	width: 98px;
+	height: 85px;
+}
+
+.partner4 {
+	width: 95px;
+	height: 61px;
+}
+
+.partner5 {
+	width: 120px;
+	height: 54px;
+}
+
+.partners {
+	padding-right: 100px;
+	padding-top: 105px;
+}
+
+
+/*Новые фишки 2*/
+
+
+.features_2 {
+	background-color:  #f6f5f3;
+	height: 754px;
+	position: relative;
+}
+
+.features_2>h3 {
+	font-family: Exo;
+	color: rgba(255, 109, 109, 0.8);
+	font-size: 15.99px;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 120px;
+}
+
+.features_2 h2 {
+	font-family: Exo;
+	color:  black;
+	font-size: 39.98px;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: center;
+	transform: scaleX(1.0014);
+}
+
+.features_2 .nd_text {
+	padding-top: 10px;
+	text-align: center;
+	width: 647px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.browser {
+	background-image: url(img/browser.png);
+	background-repeat: no-repeat;
+	width: 820px;
+	height: 375px;
+	position: absolute;
+	top: 379px;
+	left: 309px;
+}
+
+/*Регистрация*/	
+
+.signing {
+	background-color:  #323969;
+	min-height: 467px;
+}
+
+.signing>h3 {
+	font-family: Exo;
+	color: rgba(255, 109, 109, 0.8);
+	font-size: 15.99px;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 120px;
+}
+
+.signing h2 {
+	font-family: Exo;
+	color:  white;
+	font-size: 39.98px;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: center;
+	transform: scaleX(1.0014);
+}
+
+.signing_form input {
+	margin-left: 40px;
+	margin-top: 96px;
+	outline:0;
+}
+
+.registration {
+	border-radius: 3px;
+	border-width: 1px;
+	border-color:  #ffffff;
+	border-style: solid;
+	width: 261px;
+	height: 42px;
+	font-family: Exo;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 75px;
+	text-align: left;
+	padding: 5px 10px;
+}
+
+
+  .registration:focus {
+	color: white;
+	background-color:  rgba(246, 245, 243, 0.2);
+	opacity: 0.8;
+}
+
+
+.submit_button {
+	border-color:  #ff6d6d;
+	background-color:  #ff6d6d;
+	box-shadow: 0px 3px 3px 0px rgba(14, 15, 15, 0.25);
+	width: 256px;
+	height: 48px;
+	cursor: pointer;
+	color: white;
+	margin-bottom: 25px;
+	transition: opacity 0.3s;
+}
+
+.submit_button:hover {
+		opacity: 0.8;
+}
+
+
+
+/*Подвал*/
+
+.footer {
+	min-height: 250px;
+	padding-top: 60px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+
+}
+
+.startex {
+	width: 231px;
+	min-height: 89px;
+	font-family: Exo;
+	color:  rgba(40, 40, 40, 0.56);
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 26px;
+	text-align: left;
+	margin-left: 50px;
+	padding-top: 10px;
+}
+
+
+.startex_logo {
+	width: 103px;
+	height: 47px;
+
+}
+
+.support, .about_us {
+	list-style: none;
+	font-family: Exo;
+	color:  rgba(40, 40, 40, 0.56);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: left;
+	padding-top: 10px;
+}
+
+.menu li a {
+	text-decoration: none;
+	color:  rgba(40, 40, 40, 0.56);
+}
+
+.menu a:hover {
+	text-decoration: underline;
+}
+
+.support h3, .about_us h3 {
+	font-family: Exo;
+	color:  rgba(40, 40, 40, 0.56);
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: left;
+}
+
+.emailing {
+	width: 320px;
+}
+
+.get_newsletter h3 {
+	font-family: Exo;
+	color: rgba(40, 40, 40, 0.56);
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: left;
+}
+
+
+.email {
+	border-radius: 3px;
+	border-width: 1px;
+	border-color:  #4e4e5e;
+	border-style: solid;
+	background-color:  rgba(141, 141, 141, 0.2);
+	opacity: 0.4;
+	width: 211px;
+	height: 47px;
+	outline:0;
+	margin-top: 30px;
+	padding: 5px 10px;
+	font-family: Exo;
+	color:  rgba(0, 0, 0, 0.4);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 75px;
+	text-align: left;
+}
+
+.email:focus {
+	background: white;
+	color: #ff6d6d;
+}
+
+.telegram {
+	border-radius: 3px;
+	border-width: 1px;
+	border-color:  #ff6d6d;
+	border-style: solid;
+	background-color:  #ff6d6d;
+	box-shadow: 0px 3px 3px 0px rgba(14, 15, 15, 0.25);
+	width: 53px;
+	height: 58px;
+	outline: none;
+	cursor: pointer;
+	margin-left: -5px;
+	transition: opacity 0.3s;
+}
+
+.telegram:hover {
+	opacity: 0.8;
+}
+
+
+.fa-paper-plane-o {
+	color: white;
+}
+
+
+.social {
+	opacity: 0.5;
+	padding-top: 10px;
+	align-items: center;
+}
+
+.social a {
+	text-decoration: none;
+	color: gray;
+
+}
+
+.social i {
+	padding-left: 20px;
+}
+
+.fa-dribbble:before {
+	margin-left: 20px;
+}
+
+/*Иконки*/
+
+
+.fa-dribbble:hover {
+	color: #000000;
+	font-weight: bold;
+}
+
+.fa-facebook:hover {
+	color: #0000CD;
+	font-weight: bold;
+}
+
+.fa-google-plus:hover {
+	color: red;
+	font-weight: bold;
+}
+
+.fa-twitter:hover {
+	color: #1E90FF;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 750px) {
+
+	.slider h1 {
+		color:  #ff6d6d;
+	}
+}
+
